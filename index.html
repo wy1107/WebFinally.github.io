@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============FAVICON=====================-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <!--================REMIXICONS===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--================css======================-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Responsive chuancai website</title>
+</head>
+<body>
+    <!--================HEADER==========================-->
+    <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./img/logo.png" alt="logo image">
+                    川菜
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About us</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">Popular</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#recently" class="nav__link">Recently</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="myreport.html" class="nav__link" target="_blank">结业报告</a>
+                        </li>
+                    </ul>
+
+                    <!--Close button-->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                   <!--  <img src="./img/leaf-branch-4.png" alt="nav image" class="nav__img-1"> -->
+                    <img src="./img/leaf-branch-3.png" alt="nav image" class="nav__img-2">
+                </div>
+
+                <div class="nav__buttons">
+                    <!--Theme change button-->
+                    <!-- <i class="ri-moon-line" id="theme-button"></i> -->
+
+                    <!--Toggle button-->
+                    <div class="nav__toogle" id="nav-toogle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <!--=================MAIN============================-->
+    <main class="main">
+        <!--=================================HOME===============================================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="./img/home-chuangcai-rolls.png" alt="home image" class="home__img" width="2048px" >
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Enjoy Delicious
+
+                        <div>
+                            <img src="./img/home-chuangcai-title.png" alt="home image" width="2048px">
+                            Hot Pot
+                        </div>
+                    </h1>
+
+                    <p class="home__description">
+                        Enjoy delicious food 
+                        and improve your day.
+                    </p>
+
+                    <a href="#about" class="button">
+                        川菜美食<i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <img src="./img/leaf-branch-3.png" alt="home image" class="home__leaf-1">
+            <img src="./img/leaf-branch-4.png" alt="home image" class="home__leaf-2">
+        </section>
+
+        <!--=================================ABOUT======================================================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <span class="section__subtitle">About Us</span>
+                    <h2 class="section__title about__title">
+                        <div>
+                            <img src="./img/about-chuancai-title.png" alt="about image">
+                        </div>
+
+                        Mapo Tofu
+                    </h2>
+
+                    <p class="about__description">
+                        One of Sichuan cuisine most famous dishes is mapo tofu. 
+                        This dish features soft tofu cubes in a rich, spicy sauce 
+                        made with fermented broad bean paste, Sichuan peppercorns, and chili oil. 
+                        It’s often topped with ground pork and green onions for extra savory goodness. 
+                    </p>
+                </div>
+
+                <img src="./img/about-yxrs.png" alt="about image" class="about__img">
+                <h2 class="center-text">Fish-flavored shredded pork</h2>
+                <p class="about__description-1">
+                    Fish-flavored shredded pork is a classic Sichuan cuisine dish. 
+                    The shredded pork is seasoned with an aromatic blend of ginger, garlic, green onions, Sichuan peppercorn, 
+                    fermented bean paste, and chili bean paste. 
+                    It’s a perfect balance of sweet, salty, sour, and spicy flavors.
+                </p>
+
+                <img src="./img/about-hotpot.png" alt="about image" class="about__img" width="2048px">
+                <h2 class="center-text">Hot pot</h2>
+                <p class="about__description-2">
+                    Hot pot is a popular Sichuan cuisine consisting of a simmering pot of spiced broth, 
+                    accompanied by raw ingredients such as thinly sliced meats, vegetables, and tofu. 
+                    It’s perfect for sharing with friends and family, 
+                    and the spicy and bold flavors are a hallmark of Sichuan cuisine.
+                </p>
+            </div>
+        </section>
+
+         <!--=================================POPULAR======================================================-->
+         <section class="popular section" id="popular">
+            <span class="section__subtitle">Sichuan cuisine</span>
+            <h2 class="section__title">Popular Dishes</h2>
+
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="./img/popular-onigiri.png" alt="popular image" class="popular__img" width="512px">
+
+                    <h3 class="popular__name">Onigiri</h3>
+                    <span class="popular__description">Sichuan cuisine</span>
+
+                    <span class="popular__price">$10.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="./img/popular-sring-rolls.png" alt="popular image" class="popular__img" width="512px">
+
+                    <h3 class="popular__name">Spring Rolls</h3>
+                    <span class="popular__description">Sichuan cuisine</span>
+
+                    <span class="popular__price">$15.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="./img/popular-sushi-rolls.png" alt="popular image" class="popular__img" width="512px">
+
+                    <h3 class="popular__name">Sushi Rolls</h3>
+                    <span class="popular__description">Sichuan cuisine</span>
+
+                    <span class="popular__price">$19.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+         </section>
+
+          <!--=================================RECENTLY======================================================-->
+        <section class="recently section" id="recently">
+            <div class="recently__container container grid">
+                <div class="recently__data">
+                    <span class="section__subtitle">Recently Added</span>
+                    <h2 class="section__title">
+                        Sichuan Cuisine <br>
+                        Hot
+                    </h2>
+
+                    <p class="recently__description">
+                        Take a look at what's new. And do not deprive
+                        yourself of a good meal,enjoy and be happy.
+                    </p>
+
+                    <a href="#" class="button">
+                        Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+
+                    <img src="./img/leaf-branch-4.png" alt="recently image" class="recently__data-img">
+                </div>
+
+                <img src="./img/recently-salmon-sushi.png" alt="recently image" class="recently__img">
+            </div>
+
+           <!--  <img src="./img/leaf-branch-4.png" alt="recently image" class="recently__leaf-1">
+            <img src="./img/leaf-branch-4.png" alt="recently image" class="recently__leaf-2"> -->
+        </section>
+
+        <!--=========================================NEWSLETTER======================================-->
+        <section class="newsletter section">
+            <div class="newsletter__container container">
+                <div class="newsletter__content grid">
+                    <img src="./img/newsletter-sushi.png" alt="newsletter image" class="newsletter__img">
+
+                    <div class="newsletter__data">
+                        <span class="section__subtitle">Newsletter</span>
+                        <h2 class="section__title">
+                            Subscribe For <br>
+                            Updates
+                        </h2>
+
+                        <form action="" class="newsletter__form">
+                            <input type="email" placeholder="Enter email" class="newsletter__input">
+
+                            <button class="button newsletter__button">
+                                Subscribe <i class="ri-send-plane-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!--===================FOOTER==================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="./img/logo.png" alt="logo img">
+                    川菜
+                </a>
+
+                <p class="footer__description">
+                    Food for the body is not <br>
+                    enough.There must be food <br>
+                    for the soul.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Main Menu</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__linker">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__linker">Menus</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__linker">Offer</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__linker">Events</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Information</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__linker">Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__linker">Order & Returns</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__linker">Videos</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__linker">Reservation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__links">
+                        <li class="footer__information">
+                            Av Hacienda 1234 <br>
+                            Lima 4321 Peru
+                        </li>
+
+                        <li class="footer__information">
+                            9AM - 11PM
+                        </li>
+
+                    </ul>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social Media</h3>
+
+                    <ul class="footer__social">
+                       <a href="http://www.qq.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-qq-fill"></i>
+                       </a>
+
+                       <a href="http://www.wechat.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-wechat-fill"></i>
+                       </a>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--===================SCROLL UP==========================-->
+
+
+    <!--=====================SCROLLREVEL=========================-->
+    <script src=""></script>
+
+    <!--========================MAIN JS===========================-->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
